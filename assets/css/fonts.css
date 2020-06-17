@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Raleway";
+  src: url(../fonts/Raleway-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Aero";
+  src: url(../fonts/Aero.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Cabin";
+  src: url(../fonts/Cabin-Medium.ttf) format("truetype");
+}
+/*
+@font-face {
+  font-family: "Verdana";
+  src: url(../fonts/Verdana.ttf) format("truetype");
+}*/

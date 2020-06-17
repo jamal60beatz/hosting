@@ -1,0 +1,1851 @@
+.html {
+   
+    overflow:hidden;
+    ;
+    
+    }
+
+
+@media only screen and (min-width:1000px){
+    #seccionregistro {
+    position: fixed;
+   
+    padding-bottom:1550px;
+    padding-left: 62%;
+    /*background-color: #ce9f03;*/
+    padding-top: 0px;
+    border-color: #337ab7;
+    
+    }}
+    
+@media only screen and (min-width:1000px){
+        #olvidastecrear {
+        position: fixed;
+     
+        padding-top:40px;
+        padding-left: 62%;
+        border-color: #337ab7;
+
+
+    }}
+
+@media only screen and (max-width:1000px){
+        #seccionregistro {
+        
+        position: fixed;
+        padding-top: 70px;
+        padding-left: 32%;
+        
+        /*background-color: #ce9f03;*/
+        border-color: #337ab7;
+        
+        }
+        
+        }
+@media only screen and (max-width:1000px){
+            #olvidastecrear {
+     
+            position: fixed;
+            margin-top: 195px;
+            padding-left: 25%;
+         
+            
+            
+        }
+            }
+
+            @media only screen and (min-width:1000px){
+                #botoneinicio {
+               padding-left: 89%;
+               padding-top: 1px;
+               position: fixed;
+               
+               
+               
+               }}
+
+@media only screen and (max-width:1000px){
+ #botoneinicio {
+padding-left: 40%;
+padding-top: 225px;
+position: fixed;
+resize:both;
+
+}}
+
+@media only screen and (max-width:1000px){
+.inputlog {
+    
+    display: block;
+    width: 100%;
+    margin-top:25px;
+    height:5vh !important;
+    font-size: 3vw;
+    border-radius: 0.5vw !important;
+ } 
+}
+
+
+@media only screen and (max-width:800px){
+#barraredes {
+    position: fixed;
+  
+width:9%;
+height: 100px;
+font-size:10px;
+padding-top:300px; 
+;
+}
+
+
+
+}
+
+@media only screen and (min-width:800px){
+    #barraredes {
+        position: fixed;
+      
+    width:9%;
+    height: 100px;
+    font-size:10px;
+    padding-bottom:88px; 
+    ;
+    }
+    
+    
+    
+    }
+
+@media only screen and (max-width:1000px) {
+.spnum {
+
+width: 10%;
+font-size: 1000px;
+height: 10%;
+
+}
+
+
+}
+
+@media only screen and (max-width:800px) {
+    .logfoot {
+
+width: 95%;
+font-size: 10px;
+display: none;
+
+    }
+}
+ /*RESPONSIVE COMENTADO OJOOO HAY MAS AREAS COMENTADAS DENTRO DEL MISMO
+
+@media only screen and (orientation:portrait){
+--(max-width: 1200px) and (min-height: 900px)--
+	.sliderpic {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		background-repeat: no-repeat;
+		background-size: cover;
+		transition: opacity 0.5s;
+		background-position: center;
+	}
+
+
+
+
+	}
+
+	.darkiso {
+		z-index: -1;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color:
+		rgba(0,0,0,0.7);
+	}
+
+	--<<<<<<<<<<<<<<<<<<<<<<<<<LOGGIN HEADER>>>>>>>>>>>>>>>>>>>>>>>>>>>>--
+	#mainheader {
+		height: 20vh !important;
+	}
+
+	#imgcontainer {
+		display: block;
+		padding-top: 8vh;
+	}
+
+	.palogo {
+		padding-left: 10% !important;
+		width: 80%;
+	}
+
+	#loginform {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+	}
+
+	.logincell {
+		width: 50vw;
+	}
+
+	.block {
+		display: block;
+		margin-top: 10vh;
+	}
+
+
+
+
+	.logtext {
+		font-size: 4vw !important;
+	}
+
+	--<<<<<<<<<<<<<<<<<<<<<<<<<LOGGIN BODY>>>>>>>>>>>>>>>>>>>>>>>>>>>>--
+
+	a{
+		color:#000;
+	}
+
+	#bigcontents {
+		width: 100%;
+		text-align: center;
+		margin-left: 0 !important;
+		top: 23% !important;
+	}
+
+	#bigyellow {
+		font-size: 7vw !important;
+	}
+
+	#bigwhite {
+		font-size: 4.5vw !important;
+	}
+
+	--<<<<<<<<<<<<<<<<<<<<<<<<<LOGGIN FOOTER>>>>>>>>>>>>>>>>>>>>>>>>>>>>--
+
+	.logfoot {
+		display: none;
+	}
+
+	--<<<<<<<<<<<<<<<<<<<<<<<<<LOGGIN RIGHT "FOOTER">>>>>>>>>>>>>>>>>>>>>>>>>>>>--
+
+	#rightFoot {
+		display: none;
+	}
+
+	#rightFootA {
+		display: none;
+	}
+
+	#finfo {
+		display: none;
+	}
+
+	#rightFiso {
+		display: none;
+	}
+
+	--<<<<<<<<<<<<<<<<<<<<<<<<<SIGNUP BODY>>>>>>>>>>>>>>>>>>>>>>>>>>>>--
+
+	
+} RESPONSIVE COMENTADO OJOOO HAY MAS AREAS COMENTADAS DENTRO DEL MISMO  */
+
+
+/* SCREEN WIDTH < 1150px */
+
+
+
+.primarycolor{
+    overflow-y: scroll;
+}
+
+#signupelements {
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    margin-top: 20vh;
+}
+
+.firstcell {
+    display: block;
+    font-size: 5vw !important;
+    text-align: left !important;
+    margin-top: 2vh !important;
+}
+
+.areas {
+    height: 5vh;
+    border-radius: 1vw !important;
+    font-size: 4vw !important;
+}
+
+#signupfields ::-webkit-input-placeholder {
+    font-size: 4vw !important;
+}
+
+.nopaddin {
+    width: 33.3% !important;
+}
+
+#calendar {
+    width: 100%;
+}
+
+#generetable {
+    width: 100%;
+}
+
+#idchar {
+    width: 20%;
+}
+
+#idnum {
+    width: 80%;
+}
+
+#signupbackground {
+    height: 100%;
+}
+
+#datatable {
+    width: 100% !important;
+    min-width: 0px !important;
+}
+
+.areas option {
+    font-size: 4vw !important;
+}
+
+input[type=checkbox] {
+    height: 4vw !important;
+    width: 4vw !important;
+    margin-right: 10px !important;
+}
+
+#signupinfo {
+    min-width: 0px !important;
+    font-size: 4vw !important;
+    line-height: 5vw !important;
+}
+
+#sendbuttom {
+    width: 50vw !important;
+    margin-top: 2vh !important;
+}
+
+.registrarse{
+    line-height: 4vh;
+}
+
+
+
+
+
+
+
+
+html {
+    height: 100%;
+}
+
+.distitle {
+    background-image: linear-gradient(to left, #00372c, #ffcb18);
+    color: #00372c;
+    text-transform: uppercase;
+    height: 36px;
+}
+
+.distitle td:first-child {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+*::selection {
+    background-color: #a2a2a28f;
+    color: #fff;
+    cursor: initial;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    min-width: 1165px;
+    overflow-y: auto/scroll;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: lighter;
+    background-size: 150px;
+    background-image: url(../media/main/PananBGTL.png);
+}
+
+#footer1 {
+    height: 100px;
+    width: 100%;
+    background: #00372c;
+    text-align: center;
+    font-size: 20px;
+    font-family: verdana;
+    color: #b2dfdb;
+}
+
+#signupelements {
+    height: calc(100% - 100px - 115px);
+    min-height: calc(375px + 130px + 30px);
+}
+
+#top {
+    height: calc(100% - 115px);
+}
+
+.sliderpic {
+    position: absolute;
+    min-width: 1165px;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: opacity 0.5s;
+    background-position: center;
+}
+
+#menucliente {
+    height: 30px;
+}
+
+#baseprincipal {
+    min-height: calc(100% - 100px - 115px);
+}
+
+.darkiso {
+    min-width: 1165px;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<LOGGIN HEADER>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+#mainheader {
+    width: 100%;
+    height: 115px;
+}
+
+.headertable {
+    height: 100%;
+}
+
+.headerimg {
+    height: 50px;
+}
+
+.inputlog {
+    border-radius: 3px;
+    height: 30px;
+    border: none;
+    text-indent: 10px;
+    transition: box-shadow 0.5s;
+}
+
+.inputlog:focus {
+    box-shadow: 0px 0px 6px lightblue;
+}
+
+.inputlog:hover {
+    box-shadow: 0px 0px 6px lightblue;
+}
+
+::-webkit-input-placeholder {
+    opacity: 0.6;
+}
+
+.sendinput {
+    cursor: pointer !important;
+    border-radius: 5px;
+    height: 40px;
+    border: none;
+    background-color: #f0ad4e;
+    color: white;
+    font-family: Raleway;
+    font-size: 15px;
+}
+
+.sendinput:hover {
+    cursor: pointer;
+}
+
+.logtext {
+    font-family: Raleway;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* <<<<<<<<<<<<<<<<<< pollas >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+#PollasCA tr td {
+    padding: 1%;
+    border: 1px solid #38625a;
+}
+
+.trPolla {
+    border: 1px solid #38625a;
+    text-align: center;
+    /*width: 8%;*/
+}
+
+.tdPolla {
+    border: 1px solid #38625a;
+    margin: auto;
+    text-align: center;
+}
+
+.Pollas {
+    background: #fdfdf8;
+    width: 100%;
+}
+
+.Pollas tr td ul li {
+    list-style: none;
+}
+
+.title {
+    background-color: #ffcb18;
+    color: #000;
+    font-weight: bold;
+    margin: 0;
+    height: 30px;
+    border-right: 1px solid #38625a;
+    border-bottom: 1px solid #38625a;
+    text-align: center;
+}
+
+.desactive div {
+    max-height: 20px;
+    transition: all 0.5s;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #38625a;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<LOGGIN BODY>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.bigcontents {
+    position: absolute;
+    top: 50%;
+    margin-left: 5%;
+    min-width: 587.17px;
+}
+
+.bigyellow {
+    color: #fdcb0d;
+    font-family: Aero;
+    font-size: 50px;
+}
+
+.bigwhite {
+    color: white;
+    font-size: 40px;
+    font-family: Cabin;
+}
+
+.logfoot {
+
+   
+   
+    width: 100%;
+   position: absolute;
+    bottom: 0;
+    background-image: url('../media/main/foot.png');
+    background-size: cover;
+}
+
+.spnum {
+    font-family: Aero;
+    font-size: 80px;
+    color: #fdcb0d;
+    padding-right: 10px;
+}
+
+.sptext {
+    color: #ffffff;
+    font-family: Cabin;
+    font-size: 20px;
+    text-shadow: 0px 0px 20px #000000, 0px 0px 20px #000000;
+}
+
+.sptext1 {
+    font-family: Raleway;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<LOGGIN RIGHT "FOOTER">>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+#rightFiso {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s, visibility 1s;
+}
+
+#rightFoot {
+    background-image: url("../media/main/holder.png");
+    opacity: 1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 60px;
+    height: 180px;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0px;
+    transition: right 1s;
+}
+
+#rightFootA {
+    background-image: url("../media/main/holderA.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    opacity: 0;
+    transition: opacity 1s;
+    width: 60px;
+    height: 180px;
+}
+
+#rightFootA:hover {
+    opacity: 1 !important;
+    cursor: pointer;
+}
+
+#finfo {
+    background-color: #001c14;
+    box-shadow: rgb(255, 206, 0) 0px 0px 0px 0px;
+    width: 0px;
+    height: 100%;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0px;
+    transition: width 1s, box-shadow 1s;
+    overflow: hidden;
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<SIGN UP BODY>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.primarycolor {
+    /*background-color: #00372c;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center, center;
+    overflow-x: hidden;
+    /*overflow-y: scroll;*/
+}
+
+#signupinfo {
+    height: 130px;
+    color: #333;
+    background-color: #b2dfdb;
+    font-family: verdana;
+    font-size: 20px;
+    box-shadow: 0px 10px 10px #00372c;
+    min-width: 905px;
+}
+
+#signupfields {
+    height: calc(100% - 130px);
+}
+
+.firstcell {
+    margin: 10px;
+    text-align: right;
+}
+
+#signupfields label {
+    color: #00372c;
+    font-family: raleway;
+    text-align: right;
+}
+
+input.areas:hover:read-only {
+    color: inherit;
+    background-color: inherit;
+    cursor: initial;
+}
+
+input.areas:focus:read-only {
+    color: inherit;
+    background-color: inherit;
+    cursor: initial;
+}
+
+.areas {
+    width: 100%;
+    border: 1px solid #00372c;
+    padding: 5px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 13px;
+    font-family: verdana;
+    transition: color 0.5s;
+    transition: background-color 0.5s;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.areas:hover {
+    background-color: #ffcb17;
+    color: #00372c;
+}
+
+.areas:hover::-webkit-input-placeholder {
+    color: #00372c;
+    opacity: 1;
+}
+
+.areas:hover option {
+    background-color: white !important;
+    color: #00372c !important;
+}
+
+.areas:focus {
+    color: white;
+    background-color: #00372c;
+    outline: 0;
+}
+
+.areas:focus::-webkit-input-placeholder {
+    color: white;
+    opacity: 0;
+}
+
+.areas:focus option {
+    background-color: white !important;
+    color: #00372c !important;
+}
+
+.areasbtn {
+    width: 100%;
+    border: 1px solid #001f16;
+    padding: 5px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 13px;
+    font-family: verdana;
+    transition: color 0.5s;
+    transition: background-color 0.5s;
+    background-color: #165648;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.areasbtn:hover {
+    border: 1px solid #00372c;
+    background-color: #ffcb17;
+    color: #00372c;
+}
+
+#signupfields ::-webkit-input-placeholder {
+    font-size: 13px;
+}
+
+.contain {
+    background-color: #00372c !important;
+    color: white !important;
+}
+
+.valerror {
+    background-color: red !important;
+    color: white !important;
+}
+
+.blocked {
+    background-color: #617873;
+    color: /*white*/
+    #617873;
+}
+
+.blocked:hover {
+    background-color: #617873;
+    color: /*white*/
+    #617873;
+}
+
+.blocked::-webkit-input-placeholder {
+    color: /*white*/
+    #617873 !important;
+    opacity: 1;
+}
+
+.nopaddin {
+    padding: 0;
+}
+
+.registrarse {
+    background-color: #ffcb17;
+    color: #00372c;
+}
+
+#signupbackground {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url("../media/main/bgoscuro.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+input[type=checkbox] {
+    height: 15px;
+    width: 15px;
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<HOME BODY>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+#homebody {
+    background-image: url("../media/main/bgclaro.html");
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: center;
+    overflow-y: scroll;
+}
+
+#stickyarea {
+    height: 52px;
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    overflow-y: hidden;
+}
+
+#stickyarea tr {
+    height: 25px;
+}
+
+#anuncios {
+    background-color: #FFCB18;
+    color: #00372c;
+}
+
+.textHM {
+    font-size: 12px;
+    color: #fcc917;
+    margin: 0;
+    font-family: raleway;
+}
+
+#areacate {
+    background-color: #e9e9e9;
+}
+
+#areasocial {
+    background-color: #e9e9e9;
+}
+
+.encabezados {
+    text-align: center;
+    font-family: verdana;
+    font-size: 12px;
+    background-color: #1e1e1e;
+    height: 30px;
+    color: white;
+}
+
+.subencabezados {
+    text-align: left;
+    font-family: verdana;
+    font-size: 12px;
+    background-color: #00372c;
+    height: 36px;
+    color: white;
+}
+
+.titulos {
+    height: 36px;
+    background-color: #38625a;
+    color: white;
+    border-top: solid 1px #00372c;
+    border-bottom: solid 1px #38625a;
+}
+
+.toup {
+    vertical-align: top;
+    padding: 0;
+}
+
+.contentables {
+    border-collapse: collapse;
+}
+
+.menurow {
+    background-color: #38625A;
+}
+
+.menuelement {
+    display: table-cell;
+    color: white;
+    line-height: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: solid 1px #00372c;
+    cursor: pointer;
+}
+
+.menuelement:hover,
+#fachabusmenu:hover {
+    background-color: #FFCB18;
+    color: #00372c !important;
+}
+
+.actvMPo {
+    background: #00372c;
+    color: #FFCD19;
+}
+
+.actvMPo:hover,
+.menuelement:hover {
+    background: #FFCD19;
+    color: #00372c;
+}
+
+b {
+    font-weight: lighter;
+}
+
+.sideborder {
+    border-right: solid 1px #1e1e1e;
+    border-left: solid 1px #1e1e1e;
+}
+
+.iconimg {
+    height: 25px;
+}
+
+.typegame {
+    /*font-size: 9px;*/
+    background-color: #ffcb18;
+    color: #00372c;
+    border-radius: 5px;
+    border: solid 1px #00372c;
+    width: 100%;
+    height: 36px !important;
+}
+
+.gameitem {
+    border-bottom: solid 1px #38625a;
+    background-color: #fdfdf8;
+    height: 1px;
+}
+
+.jugadabuttom {
+    background-color: #00372c;
+    border-radius: 2px;
+    color: white;
+    width: 33.3%;
+    padding: 4px;
+    text-align: left;
+}
+
+.jugadabuttom2 {
+    background-color: #00372c;
+    border-radius: 2px;
+    color: white;
+    width: 33.3%;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.ticketjugado {
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    background-color: #ffcb18;
+    color: #1e1e1e;
+    height: 36px;
+}
+
+.ticketrow {
+    background-color: #e9e9e9;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.1)
+}
+
+.hidden {
+    display: none;
+}
+
+.pointer:hover {
+    cursor: pointer;
+}
+
+#contenedor_menu ul {
+    margin: 0;
+    padding-left: 0%;
+    list-style: none;
+}
+
+#contenedor_menu .menu li a {
+    margin: 0;
+    color: #ffffff;
+    display: block;
+    padding: 7%;
+    background: #00372c;
+    text-decoration: none;
+    padding: 0 !important;
+    height: 39px !important;
+    line-height: 39px;
+    text-indent: 6px;
+}
+
+#contenedor_menu .menu li a:hover {
+    background: #ffcb17;
+    color: #000;
+}
+
+#contenedor_menu .menu ul {
+    display: none;
+}
+
+#contenedor_menu .menu ul li a {
+    background: #38625a;
+    display: block;
+    color: #e9e9e9;
+    line-height: 39px;
+    height: max-content !important;
+    word-break: break-word;
+    padding-left: 5px !important;
+    text-indent: 0;
+}
+
+.menuactv {
+    background-color: #b1c2bf !important;
+    color: #1e1e1e !important;
+}
+
+
+/*///////////////////////////////////////////////**/
+
+#contenedor_menu .menu ul li a:hover {
+    /**/
+    background: #ffdd68;
+    /**/
+    color: #1e1e1e;
+    /**/
+}
+
+
+/**/
+
+
+/* This two elements needs to be the same 		/**/
+
+.menuactv:hover {
+    /**/
+    background: #ffdd68 !important;
+    /**/
+    color: #1e1e1e !important;
+    /**/
+}
+
+
+/**/
+
+
+/*///////////////////////////////////////////////**/
+
+#contenedor_menu .menu .activado>a {
+    background: #ffcb18;
+    color: #00372c;
+}
+
+
+/* BUTTON STYLE */
+
+.button {
+    transition: all 0.5s;
+    height: 100% !important;
+    vertical-align: middle;
+    line-height: 28px;
+    margin: 0 auto 0 auto;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button .plus:after {
+    content: '+';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button.Opnegativo:hover span {
+    padding-right: 0px;
+    padding-left: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.button.Opnegativo span:after {
+    content: '';
+}
+
+.button.Opnegativo:hover span:after {
+    opacity: 0;
+    right: 0;
+}
+
+.button.Opnegativo span:before {
+    content: '\00ab';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -20px;
+    transition: 0.5s;
+}
+
+.button.Opnegativo:hover span:before {
+    opacity: 1;
+    left: 0;
+}
+
+.proelement {
+    width: 44.7px;
+    height: 44.7px;
+    background-color: #38625a;
+    float: left;
+    margin: 1px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 44.7px;
+    border-radius: 2px;
+}
+
+.proelement:hover {
+    background-color: white;
+}
+
+.proelement:focus {
+    background-color: #ffcb18;
+}
+
+.elementcontenedor {
+    height: 100%;
+    width: 99%;
+    border: solid 1.5px #1e1e1e;
+    display: flow-root;
+    margin: 0;
+    border-radius: 5px;
+    background-color: #e9e9e9;
+}
+
+.propdarkness {
+    background-color: #00372c;
+}
+
+.leftarea:hover {
+    background-color: blue !important;
+}
+
+.leftarea:hover+td {
+    background-color: blue;
+}
+
+.propfixer {
+    border: 0;
+}
+
+.cleanbutton {
+    background-color: #38625a;
+    border: solid 1px #1e1e1e;
+    border-radius: 4px;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.propselect {
+    background-color: #ffcb18;
+    color: #1e1e1e;
+    width: 60%;
+    border-radius: 5px;
+    height: 45px;
+    line-height: 45px;
+    border: solid 1px #1e1e1e;
+}
+
+.backbutton {
+    background-color: #d00000;
+    width: 20%;
+    height: 100%;
+    border: solid 1px black;
+    border-radius: 3px;
+    line-height: 27px;
+    margin: auto;
+    text-align: center;
+}
+
+.propretitulo {
+    background-color: #f1f1f1;
+    border-color: #f1f1f1;
+    color: black;
+}
+
+.cannotselect {
+    background-color: #ffcb18;
+    color: #1e1e1e;
+}
+
+.cannotselect:hover {
+    background-color: #ffcb18;
+    color: #1e1e1e;
+}
+
+#Month {
+    outline: none;
+    border: 0;
+    color: white;
+    background-color: #38625a;
+    width: 100%;
+    height: 26px;
+    padding: 0;
+}
+
+#fachabusmenu {
+    outline: none;
+    border: 0;
+    color: white;
+    background-color: #38625a;
+    width: 100%;
+    height: 26px;
+    padding: 0;
+}
+
+option {
+    background: #fff;
+    color: #38625a;
+}
+
+#Month:hover {
+    background-color: #FFCB18;
+    color: #00372c;
+}
+
+.modalb {
+    float: right;
+    border: 1px solid #00372c;
+    background-color: #FFCB18;
+    border-radius: 2px;
+    margin-right: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.modaliso {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+}
+
+.modalcontent {
+    width: 25%;
+    background-color: white;
+    margin: 5% auto;
+    border: 2px solid #1e1e1e;
+    border-radius: 3px;
+    min-height: 150px;
+}
+
+#apumenu {
+    display: none;
+}
+
+#categ {
+    display: none;
+}
+
+::-webkit-scrollbar,
+#fachabusmenu::-webkit-scrollbar {
+    width: 15px;
+    background: #00372c;
+    border: 1px solid #000;
+}
+
+::-webkit-scrollbar-thumb,
+#fachabusmenu::-webkit-scrollbar {
+    width: 15px;
+    background: #38625a;
+    border: 1px solid #000;
+}
+
+::-webkit-scrollbar-thumb:active,
+#fachabusmenu::-webkit-scrollbar {
+    background: #569a94;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 0.9%;
+    background: #00372c;
+    border: 1px solid #000;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    width: 0.9%;
+    background: #38625a;
+    border: 1px solid #000;
+}
+
+.scroll::-webkit-scrollbar-thumb:active {
+    background: #569a94;
+}
+
+.casillas {
+    height: 30px;
+    color: #000;
+    border-bottom: 1px solid #38625a;
+    text-align: center;
+}
+
+.favor {
+    background: #ccccff;
+    padding: 0%;
+    color: #000;
+    border: 1px solid #38625a;
+    text-align: center;
+    width: 7%;
+}
+
+.contra {
+    background: #ffcccc;
+    padding: 0%;
+    color: #000;
+    border: 1px solid #38625a;
+    text-align: center;
+    width: 7%;
+}
+
+.desactive div {
+    transition: all 0.5s;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #38625a;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+input[type="checkbox"],
+input[type="submit"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked+label div {
+    background-color: #00372c;
+    max-height: 20px;
+    transition: all 0.5s;
+    border: 2px solid #38625a;
+    margin: auto;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+input[type="radio"]:checked+label div {
+    background-color: #00372c;
+    max-height: 20px;
+    transition: all 0.5s;
+    border: 2px solid #38625a;
+    margin: auto;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+#tablatitulo tr td {
+    border-right: 1px solid #38625a;
+    border-top: 1px solid #38625a;
+    width: auto;
+}
+
+#tablatitulo tr td:last-child {
+    border-right: none;
+}
+
+#tablatitulo tr td:first-child {
+    border-left: none;
+}
+
+
+/*Pagineo*/
+
+.pag {
+    border-top: 1px solid #1e1e1e;
+    border-bottom: 1px solid #1e1e1e;
+}
+
+.pag td {
+    color: #1e1e1e;
+    background-color: #ffcb18;
+    font-size: 25px;
+    width: 25%;
+    text-align: center;
+    cursor: pointer;
+    height: 35px;
+    line-height: 35px;
+}
+
+.pag td table td:hover {
+    background-color: #00372c;
+    color: white;
+}
+
+.fast-backward:before {
+    content: '\00ab';
+}
+
+.backward:before {
+    content: '\2039'
+}
+
+.fast-forward:before {
+    content: '\00bb';
+}
+
+.forward:after {
+    content: '\203A';
+}
+
+.centerpag {
+    font-weight: bold;
+}
+
+.regist {
+    background-color: #337ab7;
+    color: white;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.num {
+    width: 35px;
+    border-right: 1px solid #337ab7;
+    background-color: #e9e9e9;
+    cursor: pointer;
+}
+
+.ant {
+    border-right: 1px solid #337ab7;
+    background-color: #c2cfce;
+    cursor: pointer;
+}
+
+.sig {
+    background-color: #c2cfce;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+}
+
+.activepage {
+    background-color: #ffdd68;
+}
+
+
+/* Fin Pagineo*/
+
+.gameitem td {
+    text-align: center;
+}
+
+#palogo {
+    cursor: pointer;
+}
+
+.form-group {
+    text-align: center;
+}
+
+.Gano {
+    width: 100%;
+    color: #fff;
+    border-radius: 3px;
+    background: #03ce03;
+}
+
+.Perdio {
+    width: 100%;
+    color: #fff;
+    border-radius: 3px;
+    background: #ef5656;
+}
+
+.Espera {
+    width: 100%;
+    color: #fff;
+    border-radius: 3px;
+    background: #3892dc;
+}
+
+.Retirado1 {
+    width: 100%;
+    color: #fff;
+    border-radius: 3px;
+    background: #9a9a9a;
+}
+
+.Devolucion {
+    width: 100%;
+    color: #00372c;
+    border-radius: 3px;
+    background: #ffcb18;
+}
+
+.Opnegativo {
+    background: #ff3434;
+    color: #fff;
+}
+
+.Oppositivo {
+    background: #00825c;
+    color: #fff;
+}
+
+.tamañoanchofila {
+    height: 30px;
+}
+
+.tamañoancho55 {
+    height: 55px;
+    padding: 0;
+}
+
+.botonApostar {
+    height: 30px !important;
+}
+
+.inputTD {
+    text-indent: 5px;
+    text-align: left;
+    outline: none;
+    border-radius: unset;
+    border: none;
+    height: 38px;
+    width: 100%;
+    text-align: left;
+}
+
+.apostarTD {
+    outline: none;
+    width: 98.5%;
+}
+
+.Enjuego {
+    background: #03ce03;
+    transition: all 0.5s;
+    margin-right: 5px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border: 0.9px solid #000;
+    border-radius: 50%;
+}
+
+.Procesada {
+    background: #3892dc;
+    transition: all 0.5s;
+    margin-right: 5px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border: 0.9px solid #000;
+    border-radius: 50%;
+}
+
+.Retirado {
+    background: #bdbdbd;
+    transition: all 0.5s;
+    margin-right: 5px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border: 0.9px solid #000;
+    border-radius: 50%;
+}
+
+.Invalida {
+    background: #bdbdbd;
+    transition: all 0.5s;
+    margin-right: 5px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border: 0.9px solid #000;
+    border-radius: 50%;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.container1 {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    background-size: cover;
+    background-image: url(../media/main/bgoscuro.jpg);
+}
+
+select:disabled {
+    -webkit-appearance: none;
+}
+
+select:disabled:hover {
+    background-color: inherit;
+    color: inherit;
+    opacity: inherit;
+}
+
+.ver1 {
+    display: none;
+}
+
+input[type=date]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+}
+
+input[type=date]::-webkit-clear-button {
+    -webkit-appearance: none;
+    display: none;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+    position: relative;
+    right: 5px;
+    top: 1px;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+textarea {
+    max-width: 85%;
+    min-width: 85%;
+    max-height: 120px;
+    min-height: 120px;
+    border: 1px solid rgb(56, 98, 90);
+    background: rgb(241, 241, 241);
+    border-radius: 6px;
+    cursor: initial;
+    font-family: inherit;
+    resize: none;
+}
+
+.chatareas {
+    max-width: 100%;
+    width: 100%;
+    border: solid 1px;
+    border-radius: 10px;
+    background: #e9e9e9;
+    margin-bottom: 5px;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.chatbox {
+    width: 100%;
+    height: 200px;
+    max-height: 200px;
+    border: solid 1px;
+    border-radius: 10px;
+    background: #e9e9e9;
+    margin-bottom: 5px;
+}
+
+.jcontainer {
+    border: solid 1px;
+    display: flow-root;
+    padding-bottom: 2px;
+    border-radius: 10px;
+    background: #e9e9e9;
+}
+
+#ini_ejemp {
+    border: solid 1px;
+    display: flow-root;
+    padding-bottom: 2px;
+    padding-left: 1px;
+    border-radius: 10px;
+    background: #e9e9e9;
+    min-height: 200px;
+}
+
+.box {
+    position: relative;
+    width: 23.9%;
+    margin-top: 2px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    float: left;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.box:before {
+    content: "";
+    display: block;
+    margin-top: 100%;
+    border-radius: 5px;
+}
+
+.box_content {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    display: inline-block;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: #00372c;
+    font-size: 20px;
+    font-weight: bold;
+    background: #ffcb18;
+    box-shadow: inset 0px 0px 0px 1px #00372c;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.box_content:hover {
+    background: #00372c;
+    color: #ffcb18;
+}
+
+.box_content:active {
+    box-shadow: inset -3px 3px 0px 0px #000000;
+    padding-right: 3px;
+    padding-top: 3px;
+}
+
+.box_content table {
+    width: 100%;
+    height: 100%;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+    supported by Chrome and Opera */
+}
+
+.gofkthis .box_conten:hover {
+    color: #fff !important;
+    background: #ff3434 !important;
+}
+
+#mycontenido {
+    text-align: center;
+}
+
+#mycontenido1 {
+    text-align: center;
+}
+
+.modaliso div div table {
+    height: 150px !important;
+}
+
+.ticketrow>td {
+    padding: 0;
+}
+
+.ticketrow>td>table td {
+    line-height: 18px;
+    padding-left: 5px;
+}
+
+#btnretorna {
+    color: #fff;
+    width: 60%;
+    /*float: right;*/
+    vertical-align: middle;
+    line-height: 28px;
+    height: 30px !important;
+    padding: 0;
+}
