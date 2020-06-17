@@ -29,7 +29,7 @@
 
     }}
 
-@media only screen and (max-width:1000px){
+@media only screen and (max-width:750px){
         #seccionregistro {
         
         position: fixed;
@@ -42,7 +42,7 @@
         }
         
         }
-@media only screen and (max-width:1000px){
+@media only screen and (max-width:750px){
             #olvidastecrear {
      
             position: fixed;
@@ -64,7 +64,7 @@
                
                }}
 
-@media only screen and (max-width:1000px){
+@media only screen and (max-width:750px){
  #botoneinicio {
 padding-left: 40%;
 padding-top: 225px;
@@ -73,7 +73,7 @@ resize:both;
 
 }}
 
-@media only screen and (max-width:1000px){
+@media only screen and (max-width:750px){
 .inputlog {
     
     display: block;
